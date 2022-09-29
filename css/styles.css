@@ -1,0 +1,33 @@
+body {
+  background-color: thistle;
+  font-family: "arial", sans-serif;
+  /*text-align: center;*/
+  padding: 20px;
+  /*For very wide screens not to be too far apart*/
+  width: 80%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+a {
+  color: black;
+}
+
+/*pseudo-selector for link that has been visited*/
+a:visited { color: gray; }
+/*pseudo-selector for link mouse hover over*/
+a:hover { color: white; }
+/*pseudo-selector for link actually being clicked*/
+a:active { color: black; }
